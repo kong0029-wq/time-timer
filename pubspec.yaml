@@ -1,0 +1,40 @@
+name: time_timer_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.6.0
+  wakelock_plus: ^1.6.0
+  google_fonts: ^6.2.1
+  flutter_ringtone_player: ^4.0.0+4
+  file_picker: ^8.1.0
+
+dependency_overrides:
+  win32: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/alarm.mp3
+    - assets/beep.wav
+    - assets/chime.wav
+    - assets/Alarm01.wav
+    - assets/Ring01.wav
+    - assets/tada.wav
+    - assets/chimes.wav
+    - assets/notify.wav

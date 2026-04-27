@@ -14,7 +14,7 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   audioplayers: ^6.6.0
-  wakelock_plus: ^1.6.0
+  wakelock_plus: 1.5.2
   google_fonts: ^6.2.1
   flutter_ringtone_player: ^4.0.0+4
   file_picker: ^8.1.0
